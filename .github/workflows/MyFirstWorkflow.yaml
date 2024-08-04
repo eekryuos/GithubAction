@@ -1,0 +1,15 @@
+# A first workflow to play around with the editor
+name: My First Workflow
+on:
+    push:
+      branches: main
+    workflow_dispatch:
+jobs:
+    my_first_job:
+      name: My First Job
+      runs-on: ububutu-latest
+      steps:
+        - name: Greet the user
+          shell: bash
+          run: echo "Hello, world!"
+      
