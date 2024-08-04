@@ -7,7 +7,7 @@ on:
 jobs:
     my_first_job:
       name: My First Job
-      runs-on: ububutu-latest
+      runs-on: ubuntu-latest
       steps:
         - name: Greet the user
           shell: bash
